@@ -29,7 +29,7 @@ https://www.w3schools.com/jquery/jquery_traversing_siblings.asp
 
 # DEPLOYED WEBPAGE
 
-<a href="https://lianajayde.github.io/Work_Sched/">Daily Tasks Sched</a><br>
+<a href="https://lianajayde.github.io/Work_Sched/">Daily Work Sched</a><br>
 
 
 # SCREENRECORD OF WEBPAGE<BR>
