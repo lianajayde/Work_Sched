@@ -20,7 +20,7 @@ function setTime() {
   var blockTime = parseInt($(this).attr('id').split('hour')[1]);
 
 //If else statement for background colors for task time periods.. grey is a task that has already happened,
-//red is a task in present time, and green is for future tasks
+//green is a task in present time, and red is for future tasks
   if (blockTime > currentTime) {
     $(this).removeClass('past');
     $(this).removeClass('present');
@@ -47,6 +47,7 @@ $('.time-block').each(function () {
 
 setTime();
 
+//For loop to change the timeblock background color based on the current time
 for (let i = 9; i <= 17; i++){
   let color = "lightgrey"
   if (dayjs().hour()== i)
